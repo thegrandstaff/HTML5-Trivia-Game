@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div id="container">
+      
+      <img id="logo" src="images/brain.jpg" width="300" height="300" class="intro">
+
+      <form id="playerInfo" display: "none">
+      <font color = "white">
+      Please enter your name: <input id="name" name="pName">
+      </font>
+      <br><br>
+      <input type="button" id="submit" value="Enter">
+      </form>
+
+      <ul id="displayQuestions" name="game">
+        <font color = "white">
+          <h3 id="roundNumber"> Round 1 </h3>
+          <h3 id="question"> Question </h3>
+          <li id="option1" name="A"> A. </li>
+          <li id="option2" name="B"> B. </li>
+          <li id="option3" name="C"> C. </li>
+          <li id="option4" name="D"> D. </li>
+          <br>
+          <input type="button" value="(A)" id="aButton">
+          <input type="button" value="(B)" id="bButton">
+          <input type="button" value="(C)" id="cButton">
+          <input type="button" value="(D)" id="dButton">
+          <br><br>
+          <input type="button" value="BANK" id="bankMoney">
+        </font>
+      </ul>
+
+      <ol id="moneyTree1" name="roundOne">
+        <font color = "white">
+        <input type="button" value="$500000" id="level8">
+        <br>
+        <input type="button" value="$250000" id="level7">
+        <br>
+        <input type="button" value="$125000" id="level6">
+        <br>
+        <input type="button" value="$75000" id="level5">
+        <br>
+        <input type="button" value="$50000" id="level4">
+        <br>
+        <input type="button" value="$10000" id="level3">
+        <br>
+        <input type="button" value="$5000" id="level2">
+        <br>
+        <input type="button" value="$1000" id="level1">
+        <br>
+        <input type="button" value="$0" id="level0">
+      </ol>
+
+      <ol id="moneyTree2" name="roundTwo">
+        <font color = "white">
+        <input type="button" value="$500000" id="r2level5">
+        <br>
+        <input type="button" value="$125000" id="r2level4">
+        <br>
+        <input type="button" value="$75000" id="r2level3">
+        <br>
+        <input type="button" value="$10000" id="r2level2">
+        <br>
+        <input type="button" value="$1000" id="r2level1">
+        <br>
+        <input type="button" value="$0" id="r2level0">
+      </ol>
+      <h3 id="playerMoney"> Player Money: $0 </h3>
+      
+      <footer> 
+        <input type="button" value="START GAME" id="playButton" class="intro">
+        <input type="button" value="RULES" id="rules" class="intro">
+        <p id="output" class="intro"></p>
+        <h1 id="timer" name="countDownTimer"></h1>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

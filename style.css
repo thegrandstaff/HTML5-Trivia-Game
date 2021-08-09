@@ -1,0 +1,113 @@
+html,body
+{
+  margin: 0;
+  border:0;
+  padding: 0;
+  height: 90%;
+}
+
+#playerMoney
+{
+  display: none;
+  position: absolute;     
+  text-align: right;    
+  bottom: 100px;
+  float: right;
+  margin-left: 150px;
+}
+
+#container
+{
+  width:350px;
+  height: 500px;
+  margin: 0px auto 0px auto;
+  background-color:#000000;
+  min-height:100%;
+  padding: 30px;
+}
+
+#displayQuestions
+{
+  display: none;
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+}
+
+div > ul
+{
+  text-align: left;
+  list-style-type: none;
+}
+
+div > form
+{
+  display: none;
+}
+
+div 
+{
+  text-align: center;
+  padding: 50px;
+}
+
+#moneyTree1
+{
+  display: none;
+  text-align: right;
+  position: absolute;        
+  bottom: 130px;
+  float: right;
+  margin-left: 150px;
+}
+
+#moneyTree2
+{
+  display: none; 
+  text-align: right;
+  position: absolute;        
+  bottom: 130px;
+  float: right;
+  margin-left: 150px;
+}
+
+#playButton 
+{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#rules
+{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+div > ol
+{
+  display: none; 
+  position: absolute;     
+  text-align: right;    
+  bottom: 200px;
+  float: right;
+  margin-left: 150px;
+}
+
+h1
+{
+  display: none;
+  position: fixed;     
+  text-align: right;    
+  bottom: 150px;
+  float: left;
+}
+
+footer
+{
+  font-size:1em;
+  color:#ffffff;
+  text-align:center;
+  margin:50px 0px 0px 0px;
+}
